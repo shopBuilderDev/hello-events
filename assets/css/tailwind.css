@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-enter-active,
+.page-leave-active {
+	transition: all 0.3s ease-in-out;
+}
+
+.page-enter-from,
+.page-leave-to {
+	opacity: 0;
+	transform: scale(0.99);
+}
+
+.tealtext {
+	color: #14b8a6;
+}
+
+.tealtextdark {
+	color: #0f766e;
+}
+
+.tealbg {
+	background-color: #14b8a6;
+}
+.tealbgdark {
+	background-color: #0f766e;
+}
+
+.tealhover {
+	background-color: #0f766e;
+}
+
+.tealborder {
+	border-color: #14b8a6;
+}

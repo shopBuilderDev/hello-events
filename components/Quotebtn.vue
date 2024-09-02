@@ -1,0 +1,7 @@
+<template>
+	<a href="/quote">
+		<button class="tealbg rounded-md text-white py-2 px-5 mt-5 mb-5 hover:bg-amber-500">
+			Get a Quote for your Event
+		</button>
+	</a>
+</template>

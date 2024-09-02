@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Event Photography",
+        "description": "Capture the essence of your special occasion with the expertise of our professional photography services.",
+        "image": "weddingbubbles",
+        "customerType": "client"
+    },
+    {
+        "title": "Photo Prints",
+        "description": "Professional printing of your Event Photography, from wallet-sized prints to large poster-sized prints",
+        "image": "photoprint",
+        "customerType": "client"
+    },
+    {
+        "title": "Signs & Banners",
+        "description": "Comprehensive signage and banners to enhance your wedding, corporate, or charity event.",
+        "image": "sign",
+        "customerType": "client"
+    },
+    {
+        "title": "Wedding Invitations",
+        "description": "We're here to create your wedding invitations and take care of all your printing needs.",
+        "image": "invitation",
+        "customerType": "client"
+    },
+    {
+        "title": "Custom Apparel",
+        "description": "Design and production of custom shirts, jackets, hats, etc for your event.",
+        "image": "shirts",
+        "customerType": "client"
+    },
+    {
+        "title": "Web Design & Development",
+        "description": "Allow us to craft a fresh and modern website for your company",
+        "image": "wdd",
+        "customerType": "vendor"
+    },
+    {
+        "title": "Company Literature",
+        "description": "Our team is capable of creating and producing personalized flyers, business cards, and various company literature to effectively promote your services",
+        "image": "print",
+        "customerType": "vendor"
+    },
+    {
+        "title": "Product Photography",
+        "description": "From e-commerce to marketing materials, we'll deliver stunning, high-quality images that showcase your products in the best possible light",
+        "image": "product",
+        "customerType": "vendor"
+    },
+    {
+        "title": "Branding",
+        "description": "Company logo design, including color, typography, and design specifics",
+        "image": "branding",
+        "customerType": "vendor"
+    },
+    {
+        "title": "Social Media",
+        "description": "Let us help with your social media, including content, graphics, and postings",
+        "image": "social",
+        "customerType": "vendor"
+    },
+    {
+        "title": "Headshots",
+        "description": "Professional headshots of company employees and executives",
+        "image": "headshot",
+        "customerType": "vendor"
+    },
+    {
+        "title": "Email Campaigns",
+        "description": "We can design your company email blasts so you can announce your new products, services, or keep your customers up to date on your company",
+        "image": "email",
+        "customerType": "vendor"
+    },
+    {
+        "title": "Senior Pictures",
+        "description": "Our Creative Services team at Hello Events can handle your grad's senior pictures and plan a fantastic graduation party",
+        "image": "srpix",
+        "customerType": "client"
+    },
+    {
+        "title": "Engagement Pictures",
+        "description": "Hello Events captures the essence of your love story through our engagement photography services",
+        "image": "engagement",
+        "customerType": "client"
+    }
+]

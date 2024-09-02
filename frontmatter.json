@@ -1,0 +1,78 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "subtitle",
+          "name": "subtitle",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "alt",
+          "name": "alt",
+          "type": "string"
+        },
+        {
+          "title": "createdAt",
+          "name": "createdAt",
+          "type": "datetime"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "imgurl",
+          "name": "imgurl",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "preview",
+          "name": "preview",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "nuxt",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:3000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "post",
+      "path": "[[workspace]]/content/blog/post"
+    },
+    {
+      "title": "Photography",
+      "path": "[[workspace]]/content/blog/Photography"
+    },
+    {
+      "title": "events",
+      "path": "[[workspace]]/content/blog/events"
+    },
+    {
+      "title": "drafts",
+      "path": "[[workspace]]/content/blog/drafts"
+    }
+  ]
+}
