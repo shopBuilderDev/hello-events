@@ -2,7 +2,6 @@
 	<Navui />
 
  <AnnouncementBar />
-<CreativeSvcsHero />
   <header class="flex items-center justify-center bg-center bg-cover custom-img h-80 bg-fixed">
       <div class="title text-4xl text-white w-100 text-right pe-5 h-10">
           <h2>hello. lets start planning.</h2>
