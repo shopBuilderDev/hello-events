@@ -28,7 +28,7 @@
 		  </div>
 
 
-	<Popover class="relative">
+	<Popover class="relative z-50">
 		<PopoverButton class="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-white bg-amber-500 py-1 px-2 rounded">
 		<span>Services</span>
 		<ChevronDownIcon class="h-5 w-5" aria-hidden="true" />

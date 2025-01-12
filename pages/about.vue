@@ -1,7 +1,8 @@
 <template>
+  <div class="flex flex-col min-h-screen">
 	<Navui />
 
-    <section>
+    <section class="flex flex-grow">
   <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1">
       <div class="relative z-0">
@@ -45,6 +46,8 @@ Whether you're planning an intimate gathering or a grand affair, Hello Events is
 
     
 	<Footer />
+
+  </div>
 </template>
 
 <script setup>

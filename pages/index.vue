@@ -1,32 +1,45 @@
 <template>
+  <div class="flex flex-col min-h-screen">
 	<Navui />
 
  <AnnouncementBar />
-  <header class="flex items-center justify-center bg-center bg-cover custom-img h-80 bg-fixed">
-      <div class="title text-4xl text-white w-100 text-right pe-5 h-10">
-          <h2>hello. lets start planning.</h2>
-      </div>
-  </header>
 
-  
+  <div class="">
+    <HeroSection
+      :title="'Welcome to Hello Events'"
+      :subtitle="'Looking for a quote? Choose to get started!'"
+      :backgroundImage="'/centerpiece.jpg'"
+    />
+  </div>
 
-  <BigDeal />
-  <HeroText />
-  <Occasion />
-  <Features />
+  <div class="flex-grow flex items-center justify-center">
+    <div class="">
+      <SplitSection />
+    </div>
+  </div>
+
+  <!-- <BigDeal /> -->
+  <!-- <HeroText /> -->
+  <!-- <Occasion /> -->
+  <!-- <Features /> -->
   <!-- <FiveStarSection /> -->
-  <ReadyForQuote />
+  <!-- <ReadyForQuote /> -->
   <Footer />
-
+</div>
 </template>
 
 <script>
-import AnnouncementBar from '~/components/AnnouncementBar.vue';
+import HeroSection from "@/components/HeroSection.vue";
+import EventPlanningQuoteForm from "@/components/EventPlanningQuoteForm.vue";
+import EventCenterQuoteForm from "@/components/EventCenterQuoteForm.vue";
 
-
-
-
-
+export default {
+  components: {
+    HeroSection,
+    EventPlanningQuoteForm,
+    EventCenterQuoteForm,
+  },
+};
 </script>
 
 <style scoped>

@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://hello-events.net',
       siteName: 'Hello Events',
-      siteDescription: 'Welcome to Hello Events - Your premier event planning partner. Discover our expert event planning services, including social events, corporate event management, and charity event coordination. Contact us for unforgettable moments and memories.'
+      siteDescription: 'Welcome to Hello Events - Your premier event planning partner and event center venue. Discover our expert event planning services, including social events, corporate event management, and charity event coordination. Contact us for unforgettable moments and memories.'
     }
   },
   
