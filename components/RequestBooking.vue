@@ -5,7 +5,7 @@
         Ready to book your event? Let’s make it unforgettable!
       </h2>
       <p class="text-lg mb-6">
-        Give us a call today to reserve your date. We’re here to help make your event perfect!
+        Give us a call today to reserve your date. We’re here to help make your event a BIG DEAL!
       </p>
       <a
         href="tel:419-295-2298"

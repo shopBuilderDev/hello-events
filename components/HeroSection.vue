@@ -27,7 +27,7 @@
           >
             <option disabled value="">Select an Option</option>
             <option value="planning">Planning Services Quote</option>
-            <option value="event-center">Event Center Quote</option>
+            <option value="event-center">Event Center Date Reqest</option>
           </select>
         </div>
       </div>
@@ -41,12 +41,12 @@
             class="bg-white rounded-lg shadow-lg p-6 w-11/12 max-w-lg mx-auto mt-8"
         >
             <h2 class="text-xl font-bold mb-4">
-            {{ selectedOption === 'planning' ? 'Planning Services Quote' : 'Event Center Quote' }}
+            {{ selectedOption === 'planning' ? 'Planning Services Quote' : 'Event Center Date Request' }}
             </h2>
 
             <!-- Dynamic Form Rendering -->
             <EventPlanningQuoteForm v-if="selectedOption === 'planning'" @close-modal="closeModal" />
-            <EventCenterQuoteForm v-if="selectedOption === 'event-center'" />
+            <EventCenterQuoteForm v-if="selectedOption === 'event-center'" @close-modal="closeModal" />
 
             <!-- Close Button -->
             <button

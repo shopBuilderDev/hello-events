@@ -1,7 +1,7 @@
 <template>
   <header class="bg-teal-600 text-white py-10 px-5 text-center">
     <div class="container mx-auto">
-      <h1 class="text-4xl font-bold">Welcome to the Hello Events Event Center</h1>
+      <h1 class="text-4xl font-bold">Welcome to the Hello Event Center</h1>
       <p class="mt-3 text-lg">
         Discover the perfect space for your next celebration, gathering, or event.
       </p>

@@ -195,7 +195,7 @@
           { value: "video", label: "Video" },
           { value: "floral", label: "Floral" },
           { value: "decorations", label: "Decorations" },
-          { value: "day_of_coordination", label: "Day-of-Coordination" },
+          { value: "dayOf", label: "Day-of-Coordination" },
         ],
       };
     },

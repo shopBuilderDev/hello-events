@@ -1,12 +1,13 @@
 <template>
   <div class="flex flex-col min-h-screen">
   <Navui />
+  <AnnouncementBar />
 
   <div class="flex-grow">
-    <EventCenterHeader />
+    <EventCenterHeader2 />
 
-    <EventCenterPublicEvents />
-    <EventCenterVideo />
+    <!-- <EventCenterPublicEvents /> -->
+    <!-- <EventCenterVideo /> -->
     <EventCenterGallery />
     <EventCenterFeatures />
     <EventCenterPricing />

@@ -16,7 +16,7 @@
             :alt="feature.name"
             class="w-full h-40 object-cover rounded-lg mb-4"
           />
-          <p class="text-gray-800 text-lg text-center font-semibold">
+          <p class="text-teal-600 text-lg text-center font-semibold">
             {{ feature.name }}
           </p>
         </li>
@@ -33,27 +33,23 @@ export default {
       features: [
         {
           name: "Kitchen",
-          image: "/images/kitchen.jpg",
+          image: "/kitchen.jpg",
         },
         {
           name: "TV hookup",
-          image: "/images/tv-hookup.jpg",
+          image: "/tv-hookup.jpg",
         },
         {
           name: "Tables & chairs",
-          image: "/images/tables-chairs.jpg",
+          image: "/tables-chairs.jpg",
         },
         {
           name: "Three bathrooms (including a handicap bathroom)",
-          image: "/images/bathroom.jpg",
-        },
-        {
-          name: "Plenty of parking",
-          image: "/images/parking.jpg",
+          image: "/bathroom.jpg",
         },
         {
           name: "Seating area",
-          image: "/images/seating-area.jpg",
+          image: "/seating-area.jpg",
         },
         {
           name: "Artificial fireplace",
@@ -68,11 +64,5 @@ export default {
 <style scoped>
 section {
   background: #f9fafb;
-}
-img {
-  transition: transform 0.3s;
-}
-img:hover {
-  transform: scale(1.05);
 }
 </style>

@@ -20,9 +20,6 @@ export default {
             <div class="flex md:flex-col xl:flex-row xl:space-x-6 xl:pt-6 xl:justify-end justify-center md:text-center space-x-6 md:space-x-0 mx-auto w-full">
               <NuxtLink to="/" class="font-bold hover:text-amber-500">Home</NuxtLink>
               <NuxtLink to="/about" class="font-bold hover:text-amber-500">About</NuxtLink>
-              <NuxtLink to="/quote" class="font-bold hover:text-amber-500">Quote</NuxtLink>
-              <NuxtLink to="/contact" class="font-bold hover:text-amber-500">Contact</NuxtLink>
-              <NuxtLink to="/blog" class="font-bold hover:text-amber-500">Blog</NuxtLink>
             </div>
             <div class="flex md:flex-col xl:flex-row xl:space-x-6 xl:pt-6 xl:justify-start justify-center md:text-center space-x-6 md:space-x-0 mx-auto w-full">
               <NuxtLink to="/social" class="font-bold hover:text-amber-500">Social</NuxtLink>

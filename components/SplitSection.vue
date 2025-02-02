@@ -21,7 +21,7 @@
       
       <!-- Planning Services Side -->
       <a 
-        href="/planning-services" 
+        href="/social" 
         class="flex-1 relative group rounded-lg overflow-hidden shadow-lg"
       >
         <img 

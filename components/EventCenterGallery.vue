@@ -28,8 +28,11 @@ export default {
         { src: "/eventcenter-interior2.jpg", alt: "Event Center Interior 2" },
         { src: "/eventcenter-interior3.jpg", alt: "Event Center Setup 1" },
         { src: "/eventcenter-interior4.jpg", alt: "Event Center Setup 2" },
-        { src: "/images/photo5.jpg", alt: "Event Center Features 1" },
-        { src: "/images/photo6.jpg", alt: "Event Center Features 2" },
+        { src: "/entrance.jpg", alt: "Event Center entrance" },
+        { src: "/coat-rack.jpg", alt: "Event Center deco" },
+        { src: "/stools.jpg", alt: "Event Center stools" },
+        { src: "/tv.jpg", alt: "Event Center TV" },
+        { src: "/couch.jpg", alt: "Event Center couch" },
       ],
     };
   },

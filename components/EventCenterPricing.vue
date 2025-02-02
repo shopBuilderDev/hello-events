@@ -12,7 +12,7 @@
           class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
         >
           <h3 class="text-2xl font-bold text-teal-600 mb-4">{{ day.name }}</h3>
-          <p class="text-gray-800 mb-2">Time Slots:</p>
+          <p class="text-gray-800 mb-2">{{ day.title }}</p>
           <ul class="text-gray-700 mb-4">
             <li>9am - 2pm: <span class="font-semibold">{{ day.morning }}</span></li>
             <li>4pm - {{ day.eveningEnd }}: <span class="font-semibold">{{ day.evening }}</span></li>
@@ -24,10 +24,12 @@
       <div class="bg-yellow-100 text-black border border-yellow-500 p-6 rounded-lg shadow-md mt-8">
         <h3 class="text-xl font-bold mb-2">Additional Information</h3>
         <ul class="list-disc list-inside text-gray-700">
-          <li>$75 refundable security deposit is required.</li>
-          <li>A non-refundable deposit of half the total cost, plus the security deposit, is required to book your event.</li>
-          <li>The remaining balance is due one week before your event.</li>
+          <li>A non-refundable deposit of half the total cost is required to book your event.</li>
+          <li>The remaining balance, plus the $75 security deposit, is due one week before your event.</li>
         </ul>
+        <div class="">
+          <PaymentBtn />
+        </div>
       </div>
     </div>
   </section>
@@ -40,33 +42,19 @@ export default {
     return {
       pricing: [
         {
+          title: "Available times:",
           name: "Monday - Thursday",
-          morning: "$200 per time slot",
-          evening: "$200 per time slot",
+          morning: "$200",
+          evening: "$200",
           eveningEnd: "10pm",
           allDay: "$400 all day",
           extraHour: "$50/hr extra",
         },
         {
-          name: "Friday",
-          morning: "$300 per time slot",
-          evening: "$300 per time slot",
-          eveningEnd: "10pm",
-          allDay: "$500 all day",
-          extraHour: "$75/hr extra",
-        },
-        {
-          name: "Saturday",
-          morning: "$350 per time slot",
-          evening: "$350 per time slot",
-          eveningEnd: "11pm",
-          allDay: "$600 all day",
-          extraHour: "$75/hr extra",
-        },
-        {
-          name: "Sunday",
-          morning: "$300 per time slot",
-          evening: "$300 per time slot",
+          title: "Available times:",
+          name: "Friday, Saturday, Sunday",
+          morning: "$300",
+          evening: "$300",
           eveningEnd: "10pm",
           allDay: "$500 all day",
           extraHour: "$75/hr extra",

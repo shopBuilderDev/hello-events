@@ -94,9 +94,6 @@
   const navigation = [
 	{ name: 'Home', href: '/', current: false },
 	{ name: 'About', href: '/about', current: false },
-	{ name: 'Quote', href: '/quote', current: false },
-	{ name: 'Contact', href: '/contact', current: false },
-	{ name: 'Blog', href: '/blog', current: false },
   ],
   services = [
   { name: 'Social Events', description: 'Weddings, Engagement Parties, Anniversaries, Birthdays, Baby Showers, Family Reunions', href: '/social', icon: HeartIcon },

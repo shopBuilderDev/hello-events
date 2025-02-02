@@ -12,7 +12,7 @@
     />
   </div>
 
-  <div class="flex-grow flex items-center justify-center">
+  <div class="flex-grow flex">
     <div class="">
       <SplitSection />
     </div>
