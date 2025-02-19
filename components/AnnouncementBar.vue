@@ -11,7 +11,7 @@
      hover:bg-white
      "
      >
-        <NuxtLink to="https://square.link/u/te0MDr0z" target="_blank">
+        <NuxtLink to="https://square.link/u/R6ZWCow2" target="_blank">
             <div class="">
                 <h2 class="raleway text-2xl text-center py-3 uppercase">Make a Payment Here</h2>
             </div>

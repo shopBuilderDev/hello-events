@@ -11,10 +11,12 @@
 			</DisclosureButton>
 		  </div>
 		  <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-			<div class="flex flex-shrink-0 items-center">
-			  <img class="block h-8 w-auto lg:hidden" src="/hello-only-white.png" alt="Hello Events, LLC" />
-			  <img class="hidden h-8 w-auto lg:block" src="/hello-only-white.png" alt="Hello Events, LLC" />
-			</div>
+			<a href="/">
+				<div class="flex flex-shrink-0 items-center">
+				<img class="block h-8 w-auto lg:hidden" src="/hello-only-white.png" alt="Hello Events, LLC" />
+				<img class="hidden h-8 w-auto lg:block" src="/hello-only-white.png" alt="Hello Events, LLC" />
+				</div>
+			</a>
 
 			<!-- <div class="w-[100px] flex-shrink-0 justify-start">
 				<a target="_blank" href="https://www.theknot.com/marketplace/redirect-2076496?utm_source=vendor_website&utm_medium=banner&utm_term=541d3a79-8189-4dc3-aaef-ac41ad4d8db1&utm_campaign=vendor_badge_assets"><img alt="As Seen on The Knot" border="0" src="/TK-badge_AsSeen.png"></a>
