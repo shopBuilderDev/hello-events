@@ -9,7 +9,7 @@
         Your Dream Event, Our Expertise
       </h2>
       <p class="text-xl mb-6">
-        We create unforgettable events tailored just for you!!
+        We create unforgettable events tailored just for you!
       </p>
       <button
         @click="handleLearnMore"
