@@ -53,12 +53,12 @@
 				</div>
 				</div>
 			</div>
-			<div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+			<!-- <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
 				<a v-for="item in callsToAction" :key="item.name" :href="item.href" class="flex items-center justify-center gap-x-2.5 p-3 font-semibold text-gray-900 hover:bg-gray-100">
 				<component :is="item.icon" class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
 				{{ item.name }}
 				</a>
-			</div>
+			</div> -->
 			</div>
 		</PopoverPanel>
 		</transition>

@@ -14,7 +14,7 @@
         <h1 class="text-4xl sm:text-5xl text-white font-bold mb-6">
           {{ title }}
         </h1>
-        <p class="text-lg text-gray-300 mb-8">
+        <p class="text-2xl text-amber-500 mb-8">
           {{ subtitle }}
         </p>
   
@@ -23,7 +23,7 @@
           <select
             v-model="selectedOption"
             @change="handleDropdownChange"
-            class="w-full rounded-full bg-white text-gray-700 border border-gray-300 px-4 py-2 shadow focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+            class="w-full rounded-full bg-white text-gray-700 border border-gray-300 px-4 py-4 shadow focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
           >
             <option disabled value="">Select an Option</option>
             <option value="planning">Planning Services Quote</option>
@@ -74,7 +74,7 @@
       },
       backgroundImage: {
         type: String,
-        default: "/path-to-your-image.jpg",
+        default: "/corporate.jpg",
       },
     },
     data() {

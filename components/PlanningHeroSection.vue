@@ -1,22 +1,25 @@
 <template>
   <section
     id="hero"
-    class="bg-teal-600 bg-cover bg-center py-24 text-white"
-    style="background-image: url('/hero-bg.jpg');"
+    class="relative bg-teal-600 bg-cover bg-center py-24 text-white"
+    style="background-image: url('/img/centerpiece.jpg');"
   >
-    <div class="container mx-auto text-center px-4">
-      <h2 class="text-4xl font-bold mb-4 text-yellow-500">
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black opacity-20"></div>
+
+    <div class="relative container mx-auto text-center px-4 z-10">
+      <h2 class="text-5xl font-bold mb-4 text-white">
         Your Dream Event, Our Expertise
       </h2>
       <p class="text-xl mb-6">
         We create unforgettable events tailored just for you!
       </p>
-      <button
+      <!-- <button
         @click="handleLearnMore"
-        class="bg-yellow-500 hover:bg-yellow-600 text-teal-600 font-semibold py-2 px-4 rounded"
+        class="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded"
       >
         Learn More
-      </button>
+      </button> -->
     </div>
   </section>
 </template>

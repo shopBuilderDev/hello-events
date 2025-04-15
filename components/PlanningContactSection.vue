@@ -4,67 +4,32 @@
       <h2 class="text-3xl font-bold text-center mb-8 text-yellow-500">
         Get In Touch
       </h2>
-      <form @submit.prevent="submitForm" class="max-w-lg mx-auto space-y-6">
-        <div>
-          <label for="name" class="block mb-2 font-medium">Name</label>
-          <input
-            type="text"
-            id="name"
-            v-model="form.name"
-            required
-            class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-          />
+      <div class="max-w-lg mx-auto space-y-8">
+        <!-- Address -->
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Address</h3>
+          <p>
+            228 N. Illinois Ave<br />
+            Mansfield, OH 44905
+          </p>
         </div>
-        <div>
-          <label for="email" class="block mb-2 font-medium">Email</label>
-          <input
-            type="email"
-            id="email"
-            v-model="form.email"
-            required
-            class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-          />
+        <!-- Phone -->
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Phone</h3>
+          <p>(419) 295-2298</p>
         </div>
-        <div>
-          <label for="message" class="block mb-2 font-medium">Message</label>
-          <textarea
-            id="message"
-            v-model="form.message"
-            required
-            class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
-          ></textarea>
+        <!-- Email -->
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h3 class="text-xl font-bold mb-2">Email</h3>
+          <p><a href="mailto:helloevents7@gmail.com">helloevents7@gmail.com</a></p>
         </div>
-        <button
-          type="submit"
-          class="w-full py-3 bg-yellow-500 hover:bg-yellow-600 text-teal-600 font-semibold rounded"
-        >
-          Send Message
-        </button>
-      </form>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'ContactSection',
-  data() {
-    return {
-      form: {
-        name: '',
-        email: '',
-        message: ''
-      }
-    }
-  },
-  methods: {
-    submitForm() {
-      // Replace this with your actual submission logic
-      alert(`Thanks, ${this.form.name}! Your message has been sent.`)
-      this.form.name = ''
-      this.form.email = ''
-      this.form.message = ''
-    }
-  }
+  name: 'ContactSection'
 }
 </script>
