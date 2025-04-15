@@ -101,7 +101,7 @@
   { name: 'Social Events', description: 'Weddings, Engagement Parties, Anniversaries, Birthdays, Baby Showers, Family Reunions', href: '/social', icon: HeartIcon },
   { name: 'Corporate Events', description: 'Company Parties, Product Launches, Team-building Activities, Annual Meetings', href: '/corporate', icon: BriefcaseIcon },
   { name: 'Charity Events', description: "Fundraisers, Benefits, Community Events, Festivals", href: '/charity', icon: CurrencyDollarIcon },
-  { name: 'Rentals', description: "Rental items for your event", href: '/rentals', icon: TagIcon },
+//   { name: 'Rentals', description: "Rental items for your event", href: '/rentals', icon: TagIcon },
   { name: 'Creative Services', description: "Creative Services for Clients and Vendors", href: '/creativeSvcs', icon: PaintBrushIcon },
 //   { name: 'Cultural and Arts Events', description: 'Exhibitions, Fashion Shows, Music Festivals, Film Screenings, Cultural Celebrations', href: '/arts', icon: UserGroupIcon },
 //   { name: 'Trade Shows and Exhibitions', description: 'Trade Shows, Industry Expos, Product Showcase', href: '/trade', icon: BuildingStorefrontIcon },
