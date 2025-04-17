@@ -27,7 +27,7 @@
           >
             <option disabled value="">Select an Option</option>
             <option value="planning">Planning Services Quote</option>
-            <option value="event-center">Event Center Date Reqest</option>
+            <option value="event-center">Event Center Date Request</option>
           </select>
         </div>
       </div>

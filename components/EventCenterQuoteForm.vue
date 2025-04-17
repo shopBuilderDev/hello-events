@@ -138,16 +138,50 @@
         Choose the type of event you are planning. This will help us tailor the request to your needs.
       </p>
     </div>
+    <!-- Pricing Info -->
+    <div class="!max-w-none !col-span-2 bg-teal-50 border border-teal-200 p-4 rounded-md mb-2">
+        <h3 class="text-lg font-semibold text-gray-700 mb-2">Pricing</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-600">
+          <!-- Mon–Thu -->
+          <div>
+            <h4 class="font-medium">Monday – Thursday</h4>
+            <ul class="list-disc list-inside">
+              <li>Morning (9am–2pm): $200</li>
+              <li>Evening (4pm–10pm): $200</li>
+              <li>All Day: $400</li>
+              <li>Extra Hour: $50/hr</li>
+            </ul>
+          </div>
+          <!-- Fri–Sun -->
+          <div>
+            <h4 class="font-medium">Friday – Sunday</h4>
+            <ul class="list-disc list-inside">
+              <li>Morning (9am–2pm): $300</li>
+              <li>Evening (4pm–10pm): $300</li>
+              <li>All Day: $500</li>
+              <li>Extra Hour: $75/hr</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-    <!-- Submit Button -->
-    <div class="!max-w-none !col-span-2">
-      <button
-        type="submit"
-        class="mt-4 bg-teal-500 text-white px-4 py-2 rounded shadow hover:bg-teal-600"
-      >
-        Submit Request
-      </button>
-    </div>
+      <div class="bg-yellow-100 text-black border !col-span-2 border-yellow-500 p-6 rounded-lg shadow-md mt-2">
+        <h3 class="text-xl font-bold mb-2">Additional Information</h3>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>A non-refundable deposit of half the total cost is required to book your event.</li>
+          <li>The remaining balance, plus the $75 security deposit, is due one week before your event.</li>
+        </ul>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="!max-w-none !col-span-2">
+        <button
+          type="submit"
+          class="mt-4 bg-teal-500 text-white px-4 py-2 rounded shadow hover:bg-teal-600"
+        >
+          Submit Request
+        </button>
+      </div>
   </form>
 </template>
 
